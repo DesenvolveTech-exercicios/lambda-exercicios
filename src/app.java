@@ -11,5 +11,6 @@ public class app {
         nomes.add("edu kng");
 
         mudaAPalavra(nomes, String::toUpperCase);
+        mudaAPalavra(nomes, (String p) -> p + " galinha");
     }
 }
