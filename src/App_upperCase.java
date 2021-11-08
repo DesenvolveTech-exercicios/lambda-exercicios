@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 import static services.Modificador.mudaAPalavra;
 
-public class app {
+public class App_upperCase {
     public static ArrayList<String> nomes = new ArrayList<>();
 
     public static void main(String[] args) {
