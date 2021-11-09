@@ -16,9 +16,13 @@ public class App_ListaInteiros {
         inteiros.add(4);
         System.out.println("---- Retorna nova lista----");
         listaInteiros.listagem(inteiros, Integer::sum);
+        // expressão contida no segundo parametro
+        // (int g, int p) -> g+p;
         System.out.println("----Returna media----");
         listaInteiros.listagem(inteiros,(int g, int p) -> (g+p)/2);
         System.out.println("----Retorna o maior valor em pares----");
         listaInteiros.listagem(inteiros, Math::max);
+        // expressão contida no segundo parametro
+        // (int g, int p) -> (g>=p) ? g:p;
     }
 }
